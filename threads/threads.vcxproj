@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1b69d930-d135-444c-a307-6ff397c7ad11}</ProjectGuid>
-    <RootNamespace>loopsandarrays</RootNamespace>
+    <ProjectGuid>{739aa5f3-a644-4a87-bc87-c53e1baa60db}</ProjectGuid>
+    <RootNamespace>threads</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>..\loops and arrays - bin\</OutDir>
-    <IntDir>..\loops and arrays - bin\ID</IntDir>
+    <OutDir>..\threads - bin\</OutDir>
+    <IntDir>..\threads - bin\ID</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
